@@ -1,7 +1,5 @@
-from selene import be, have, command
-from selene.support.shared import browser
-from Page_object_hw import resources
-from Page_object_hw.Pages.registration_page import RegistrationForm
+from selene import have
+from Page_object_hw.pages.registration_page import RegistrationForm
 
 def test_form_filling():
     registration_form = RegistrationForm()
